@@ -7,13 +7,31 @@ body {
 
 .Milk {
     color: white;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    border-radius: 10px;
+    padding: 20px;
+    height: 150px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
     border-radius: 10px;
     padding: 20px;
-    width: 200px;
     height: 150px;
+}
+
+
+.Side {
+
+}
+
+.Header {
+
 }
