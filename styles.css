@@ -1,37 +1,71 @@
-body {
-    background-color: black;
-    /* overflow: hidden; (Remove once done) */
 
-}
+.container {
+    display: flex;
+    height: 100vh;
+    background: lightblue;
+  }
+  
+  .left {
+    flex: 0.25;
+    background-color: #132124;
+  }
+  
+  .right {
+    flex: 5;
+    background-color: #132124;
+    position: relative;
+  }
+  
+  .chat-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+  
+  .chat-header {
+    flex: 4;
+    background-color: #36393E;
+  }
+  
+  .chat-body {
+    flex: 6;
+    background-color: #36393E;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .chat-footer {
+    flex: 1.2;
+    background-color: #36393E;
+  }
 
+  .chat-xr {
+    flex: 1;
+    background-color: red;
+  }
+  
+  ul, li {
+    font-size: 60px;
+  }
 
-.Milk {
+  .button {
+    background-color: #1d2025;
+    width: 50%;
+    font-size: 35px;
+    border: none;
     color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 27%;
-    border-radius: 10px;
-    padding: 20px;
-    height: 150px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 27%;
-    border-radius: 10px;
-    padding: 20px;
-    height: 150px;
-}
-
-
-.Side {
-
-}
-
-.Header {
-
-}
+    padding: 20px 70px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 80px;
+  }
