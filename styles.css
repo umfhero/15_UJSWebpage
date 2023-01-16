@@ -1,4 +1,9 @@
 
+body {
+  background-color: #333;
+}
+
+
 .container {
     display: flex;
     height: 100vh;
@@ -7,7 +12,7 @@
   
   .left {
     flex: 0.25;
-    background-color: #132124;
+    background-color: #dcbe43;
   }
   
   .right {
@@ -57,15 +62,15 @@
 
   .button {
     background-color: #1d2025;
-    width: 50%;
+    width: 30%;
     font-size: 35px;
     border: none;
     color: white;
     padding: 20px 70px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin: 4px 80px;
     cursor: pointer;
     border-radius: 80px;
   }
