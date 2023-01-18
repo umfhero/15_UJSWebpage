@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(113, 113, 113);
+  overflow: hidden; /* Hide scrollbars */
+}
+
+
+
+/*  Scroll bar poof */
+.sidenav::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.sidenav {
+ padding-top: 300px; /* up down text */
+  height: 100%;
+  width: 650px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  padding-left: 130px;
+  padding-right: 0px;
+  
+}
+
+.square {
+  margin-top: 46px;
+  margin-left: 100px;
+  height: 200px;
+  width: 400px;
+  background-color: #333;
+  z-index: 10;
+  position: absolute;
+}
+
+/* Side navigation links */
+.sidenav a {
+  margin-top: 3px;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  padding: 8.9px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+}
+
+/* hover */
+.sidenav a:hover {
+  border-radius: 200px;
+  background-color: #424549;
+  color: #ffcb6e;
+  padding-left: 50px; /* Makes selection more apparent */
+  font-size: 49px;
+}
+
+/* Main page contents */
+.content {
+  color: white;
+}
+
+
+.sidetxt h2 {
+  font-size: 50px;
+  padding-top: 140px;
+  padding-left: 980px;
+  position: absolute;
+  z-index: 90;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  color: white;
+}
+
+
+.line1 {
+  border-radius: 3.5px; /* lil flair on the line */
+  padding-top: 245px;
+  margin-left: 100px;
+  width: 400px;
+  height: 47px;
+  border-bottom: 3px solid #ffcb6e;;
+  position: absolute;
+  z-index: 90;
+}
+
+img[src*="/Images/icons8-scroll-64.png"] {
+  opacity: 50%;
+  padding-top: 600px;
+  position: absolute;
+  z-index: 90;
+}
+
+img[src*="/Images/9681262f6f21c4a536c994c6321ff741.jpg"] {
+  opacity: 70%;
+  padding-top: 325px;
+  padding-left: 830px;
+  position: absolute;
+
+}
