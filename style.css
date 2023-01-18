@@ -9,8 +9,19 @@ body {
   overflow: hidden; /* Hide scrollbars */
 }
 
+.content h2 {
+  text-align: left;
+color: white;
+font-size: 90px;
+padding-top: 50px;
+padding-left: 7%;
+position: absolute;
+z-index: 100;
+font-family: 'Cormorant Garamond', serif;
+font-weight: 500;
+font-style: light italic;
 
-
+}
 /*  Scroll bar poof */
 .sidenav::-webkit-scrollbar {
     display: none;
@@ -44,8 +55,8 @@ body {
 
 /* Side navigation links */
 .sidenav a {
-  margin-top: 3px;
-  font-size: 45px;
+  margin-top: 35px;
+  font-size: 55px;
   color: rgb(255, 255, 255);
   padding: 8.9px;
   text-decoration: none;
@@ -61,7 +72,7 @@ body {
   background-color: #424549;
   color: #ffcb6e;
   padding-left: 50px; /* Makes selection more apparent */
-  font-size: 49px;
+  font-size: 54px;
 }
 
 /* Main page contents */
@@ -73,7 +84,7 @@ body {
 .sidetxt h2 {
   font-size: 50px;
   padding-top: 140px;
-  padding-left: 980px;
+  padding-left: 1135px;
   position: absolute;
   z-index: 90;
   font-family: 'Heebo', sans-serif;
@@ -81,6 +92,7 @@ body {
   font-style: semibold;
   color: white;
 }
+
 
 
 .line1 {
@@ -95,8 +107,8 @@ body {
 }
 
 img[src*="/Images/icons8-scroll-64.png"] {
-  opacity: 50%;
-  padding-top: 600px;
+  opacity: 40%;
+  padding-top: 800px;
   position: absolute;
   z-index: 90;
 }
@@ -104,7 +116,8 @@ img[src*="/Images/icons8-scroll-64.png"] {
 img[src*="/Images/9681262f6f21c4a536c994c6321ff741.jpg"] {
   opacity: 70%;
   padding-top: 325px;
-  padding-left: 830px;
+  padding-left: 900px;
   position: absolute;
+  width: 90%;
 
 }
