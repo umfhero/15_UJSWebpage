@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(113, 113, 113);
+  background-color: rgb(0, 0, 0);
   overflow: hidden; /* Hide scrollbars */
 }
 
@@ -53,10 +53,8 @@ font-style: light italic;
 }
 
 .square {
-  margin-top: 46px;
-  margin-left: 100px;
-  height: 200px;
-  width: 400px;
+  height: 246px;
+  width: 650px;
   background-color: #333;
   z-index: 10;
   position: absolute;
@@ -123,7 +121,7 @@ img[src*="/Images/icons8-scroll-64.png"] {
 }
 
 img[src*="/Images/9681262f6f21c4a536c994c6321ff741.jpg"] {
-  opacity: 70%;
+  opacity: 0%;
   padding-top: 325px;
   padding-left: 900px;
   position: absolute;
