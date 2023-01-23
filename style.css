@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(236, 197, 139);
+  background-color: rgb(80, 79, 79);
   overflow: hidden; /* Hide scrollbars */
 }
 
@@ -145,6 +145,8 @@ img[src*="/Images/9681262f6f21c4a536c994c6321ff741.jpg"] {
   padding: 20px;
 }
 
+
+
 .submit {
   font-family: 'Heebo', sans-serif;
   font-weight: 600;
@@ -181,7 +183,9 @@ input[type=text], select, textarea {
   color: white;
   height: 600px;
   width: 800px;
-  background-color: #333;
+  background-color: (#333 / 15%);
+  backdrop-filter: blur(3px);
+  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
   z-index: 100;
   position: absolute;
   margin-left: 900px;
