@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(236, 197, 139);
   overflow: hidden; /* Hide scrollbars */
 }
 
@@ -121,10 +121,112 @@ img[src*="/Images/icons8-scroll-64.png"] {
 }
 
 img[src*="/Images/9681262f6f21c4a536c994c6321ff741.jpg"] {
-  opacity: 0%;
+  opacity: 100%;
   padding-top: 325px;
   padding-left: 900px;
   position: absolute;
   width: 90%;
 
 }
+
+.form {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  color: white;
+  height: 660px;
+  width: 800px;
+  background-color: #333;
+  z-index: 100;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 260px;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.submit {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  background-color: #3d3c3b;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #ffcb6e;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 20%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.subbox {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  color: white;
+  height: 600px;
+  width: 800px;
+  background-color: #333;
+  z-index: 100;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 300px;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.Homepage {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  color: white;
+  height: 600px;
+  width: 800px;
+  background-color: #333;
+  z-index: 100;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 300px;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+
+.LinkA {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  background-color: #3d3c3b;
+  border-radius: 12px;
+  border: 0;
+  color: #ffcb6e;
+  cursor: pointer;
+  font-size: 18px;
+  outline: 0;
+  text-align: center;
+  padding: 20px;
+  width: 20%;
+}
+
+a:link {
+  text-decoration: none;
+  appearance: button;
+
+  
+}
+
