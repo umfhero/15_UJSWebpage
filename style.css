@@ -5,9 +5,10 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(80, 79, 79);
+  background: rgb(255,203,110);
   overflow: hidden; /* Hide scrollbars */
 }
+
 
 .sidenav2 {
   padding-top: 50%;
@@ -120,7 +121,7 @@ img[src*="/Images/icons8-scroll-64.png"] {
   z-index: 90;
 }
 
-img[src*="/Images/9681262f6f21c4a536c994c6321ff741.jpg"] {
+.homepageimage { /*homepage immage*/
   opacity: 100%;
   padding-top: 325px;
   padding-left: 900px;
