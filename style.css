@@ -5,8 +5,9 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: rgb(255,203,110);
+  background-image: url("/Images/f0b9f9378659c642d64843c946fc13b6.jpg");
   overflow: hidden; /* Hide scrollbars */
+  
 }
 
 
@@ -121,13 +122,15 @@ img[src*="/Images/icons8-scroll-64.png"] {
   z-index: 90;
 }
 
-.homepageimage { /*homepage immage*/
-  opacity: 100%;
-  padding-top: 325px;
+
+/*  padding-top: 325px;
   padding-left: 900px;
   position: absolute;
-  width: 90%;
+  width: 90%;*/
 
+.homepageimg { /*homepage immage*/
+  opacity: 70%;
+  padding-left: 10%;
 }
 
 .form {
@@ -137,7 +140,9 @@ img[src*="/Images/icons8-scroll-64.png"] {
   color: white;
   height: 660px;
   width: 800px;
-  background-color: #333;
+  background-color: (#333 / 15%);
+  backdrop-filter: blur(3px);
+  box-shadow: 5px 10px 0px 10px rgb(0 0 0 / 35%);
   z-index: 100;
   position: absolute;
   margin-left: 900px;
@@ -186,7 +191,7 @@ input[type=text], select, textarea {
   width: 800px;
   background-color: (#333 / 15%);
   backdrop-filter: blur(3px);
-  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+  box-shadow: 5px 10px 0px 10px rgb(0 0 0 / 35%);
   z-index: 100;
   position: absolute;
   margin-left: 900px;
@@ -202,7 +207,9 @@ input[type=text], select, textarea {
   color: white;
   height: 600px;
   width: 800px;
-  background-color: #333;
+  background-color: (#333 / 15%);
+  backdrop-filter: blur(3px);
+  box-shadow: 5px 10px 0px 10px rgb(0 0 0 / 35%);
   z-index: 100;
   position: absolute;
   margin-left: 900px;
