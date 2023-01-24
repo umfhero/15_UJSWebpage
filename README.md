@@ -7,12 +7,19 @@ Utiliszing HTML5, CSS and JavaScript as languages while also being bale to handl
 
 Home page (done - change image)
 Modifications (Done)
-description (More detail of / Vaibles etc)
-job prospects (Possible jobs (With satistics/ Spend most time coz of interactive grahps))
+description (done)
+
+job prospects (Possible jobs (With satistics/ Spend most time coz of interactive grahps)) / https://www.google.com/search?q=javascript+job+prospects&tbm=isch&chips=q:javascript+job+prospects,online_chips:javascript+developer+salary:KYY148_ImCY%3D&rlz=1C1VDKB_enGB1030GB1030&hl=en&sa=X&ved=2ahUKEwiXiMC4uuD8AhXdnycCHZalBAwQ4lYoAHoECAEQJg&biw=1903&bih=929#imgrc=jqwH19d9hyXYIM
+
+
 third parties (Github)
-uses of java script (Projects javascript can do)
+uses of java script (Projects javascript can do - VIDEO)
 contact form (Done)
 
 NEEDS VIDEOS
 
-Dark theme / change image
+Dark/light theme / change image
+
+name images - Image search to find ref
+
+make hover blur
