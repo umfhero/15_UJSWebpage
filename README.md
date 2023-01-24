@@ -14,3 +14,5 @@ uses of java script (Projects javascript can do)
 contact form (Done)
 
 NEEDS VIDEOS
+
+Dark theme / change image

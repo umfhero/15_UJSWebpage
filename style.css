@@ -47,7 +47,9 @@ font-style: light italic;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #333;
+  background-color: (#333 / 15%);
+  backdrop-filter: blur(3px);
+  box-shadow: 5px 10px 0px 10px rgb(0 0 0 / 35%);
   overflow-x: hidden;
   padding-left: 130px;
   padding-right: 0px;
@@ -57,7 +59,9 @@ font-style: light italic;
 .square {
   height: 246px;
   width: 650px;
-  background-color: #333;
+  background-color: (#333 / 15%);
+  backdrop-filter: blur(3px);
+
   z-index: 10;
   position: absolute;
 }
