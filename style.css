@@ -68,7 +68,6 @@ font-style: light italic;
   width: 650px;
   background-color: (#333 / 15%);
   backdrop-filter: blur(3px);
-
   z-index: 10;
   position: absolute;
 }
@@ -89,7 +88,9 @@ font-style: light italic;
 /* hover */
 .sidenav a:hover {
   border-radius: 200px;
-  background-color: #424549;
+  background-color: (#333 / 15%);
+  backdrop-filter: blur(3px);
+  box-shadow: 5px 10px 0px 10px rgb(0 0 0 / 35%);
   color: #ffcb6e;
   padding-left: 50px; /* Makes selection more apparent */
   font-size: 54px;
@@ -134,7 +135,7 @@ img[src*="/Images/icons8-scroll-64.png"] {
 }
 
 img[src*="/Images/Unofficial_JavaScript_logo_2.svg.png"] {
-  opacity: 80%;
+  opacity: 100%;
   position: absolute;
   width: 460px;
   z-index: 90;
