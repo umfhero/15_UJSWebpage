@@ -7,7 +7,6 @@
     <title>Home Page</title>
 
 
-
     <link rel="stylesheet" href="style.css" />
 
     <!-- Google font imports -->
@@ -46,25 +45,43 @@
         <h2>Home Page</h2> (move up)
     </div>
 
-    <div class="subboxhome">
+    <div id="ThemeColour" class="subboxhome">
         <h1>JavaScript</h1>
         <h3>Welcome to the JavaScript Foundations, this webpage goes over many areas of JavaScript briefly including future career possibilities, add-ons and even modifications.</h3>
         <br>
+        
         <br>
         <h3>This page can be easily traversed through the permenant on page navigation side tab. Each page will attempt to go in-depth on each major topic while also translating infomation in moderate portions.</h3>
     </div>
-    
+
+        
     <div class="subboxhome2">
         <img src="/Images/JavaScript_logo_.svg.png">
+    </div>
+
+
+
+
+    <!-- Theme coding -->
+    <div class="toggletheme">
         
+        <div class="togglethemeBN">
+            <button onclick="Theme()">Theme</button>
+        </div>
     </div>
-        <h2>
-            
-            
-        </h2>
+    
+    <script>
+        function Theme() 
+        {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
 
 
-    </div>
+        </script>
+
+
+
 
 </body>
 </html>

@@ -312,4 +312,14 @@ a:link {
 
 }
 
+.dark-mode {
+  background-image: url("/Images/topographic-seamless-pattern-vector.jpg");
+  
+}
+
+.toggletheme {
+  margin-top: 20px;
+  margin-left: 1820px;
+  
+}
 
