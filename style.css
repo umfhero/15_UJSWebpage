@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("/Images/f0b9f9378659c642d64843c946fc13b6.jpg"); /* Image background */
+  background-image: url("/Images/blacktopographic.jpg"); /* Image background */
   overflow: hidden; /* Hide scrollbars coz thats annoying */
   
 }
@@ -127,14 +127,14 @@ font-style: light italic;
   z-index: 90;
 }
 
-img[src*="/Images/icons8-scroll-64.png"] {
+img[src*="/Images/scroll.png"] {
   opacity: 40%;
   padding-top: 800px;
   position: absolute;
   z-index: 90;
 }
 
-img[src*="/Images/Unofficial_JavaScript_logo_2.svg.png"] {
+img[src*="JavaScript_logo_.svg.png"] {
   opacity: 100%;
   position: absolute;
   width: 460px;
