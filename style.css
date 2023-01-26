@@ -323,3 +323,13 @@ a:link {
   
 }
 
+button {
+  width: 74px;
+  height: 74px;
+  border-radius: 55px;
+  opacity: 50%;
+  background-image: url("/Images/icons8-sun-70.png");
+  background-repeat: no-repeat;
+
+}
+
