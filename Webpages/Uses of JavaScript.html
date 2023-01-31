@@ -45,15 +45,18 @@
         </div>
         <div class="subbox">
             <h1>Uses of JavaScript</h1>
-            <h2>
-                x
-            </h2>
+            <h3>
+            <p>
+                As of 2022, JavaScript and HTML/CSS were the most commonly used programming languages among software developers around the world. The uses of JavaScript is massive, for more detail please go to <mark>&nbsp;Description.</mark>
+            </p>
+            </h3>
             <form>
-            <br />
-            <a href="https://reactjs.org/" class="LinkA">link</a>
-
 
          </form>
+         
+         <div id="piechart"></div>
+         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+         <script type="text/javascript"></script>
 
         </div>
             <!-- Theme coding -->
@@ -71,8 +74,30 @@
            element.classList.toggle("dark-mode");
         }
 
+         google.charts.load('current', {'packages':['corechart']});
+         google.charts.setOnLoadCallback(drawChart);
 
-        </script>
+         function drawChart() {
+           var data = google.visualization.arrayToDataTable([
+           ['Language', 'Percent'],
+           ['JavaScript', 20.6],
+           ['HTML', 15],
+           ['CSS', 12],
+           ['Python', 13],
+           ['Java', 9.8],
+           ['C', 10.8],
+           ['C#', 10.3],
+           ['C++', 10.3],
+
+
+         ]);
+
+           var options = {'title':'Most commonly used Programming Languages', 'width':500, 'height':340};
+           var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+           chart.draw(data, options);
+         }
+
+    </script>
 
     
 </body>
