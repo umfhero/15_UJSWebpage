@@ -60,7 +60,6 @@ font-style: light italic;
   overflow-x: hidden;
   padding-left: 130px;
   padding-right: 0px;
-  
 }
 
 .square {
@@ -203,7 +202,7 @@ input[type=text], select, textarea {
   font-weight: 600;
   font-style: semibold;
   color: white;
-  height: 600px;
+  height: 500px;
   width: 800px;
   background-color: (#333 / 15%);
   backdrop-filter: blur(3px);
@@ -336,3 +335,9 @@ a:link {
 p {
   text-align: justify;
 }
+
+video {
+  float: right;
+  margin-right: 20px;
+}
+
